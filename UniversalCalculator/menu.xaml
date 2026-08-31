@@ -8,11 +8,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
-
-		<StackPanel  HorizontalAlignment="Center" Width="500">
+	<Grid Margin="50">
+		<Image x:Name="abacus" Width="500" HorizontalAlignment="Right" VerticalAlignment="top" Source="/Assets/abacus.jpg"/>
+		<StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
+			
+			
 			<TextBlock x:Name="helloTextBlock" Text="Universal Calculator" FontSize="45" HorizontalAlignment="Center"/>
-			<Image x:Name="abacus" Source="/Assets/abacus.jpg"/>
 			<Button x:Name="maths_button" HorizontalAlignment="Center" Click="maths_Button_Click">
 			Maths calculator
 		</Button>
