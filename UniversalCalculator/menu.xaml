@@ -10,8 +10,9 @@
 
     <Grid>
 
-		<StackPanel  HorizontalAlignment="Center">
+		<StackPanel  HorizontalAlignment="Center" Width="500">
 			<TextBlock x:Name="helloTextBlock" Text="Universal Calculator" FontSize="45" HorizontalAlignment="Center"/>
+			<Image x:Name="abacus" Source="/Assets/abacus.jpg"/>
 			<Button x:Name="maths_button" HorizontalAlignment="Center" Click="maths_Button_Click">
 			Maths calculator
 		</Button>
