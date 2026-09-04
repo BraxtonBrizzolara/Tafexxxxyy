@@ -22,7 +22,7 @@ namespace Calculator
 
 		private void maths_Button_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.Frame.Navigate(typeof(MainPage));
 		}
 
 		private void Morgage_button_Click(object sender, RoutedEventArgs e)
@@ -32,7 +32,7 @@ namespace Calculator
 
 		private void currency_button_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.Frame.Navigate(typeof(BlankPage2));
 		}
 
 		private void exit_button_Click(object sender, RoutedEventArgs e)
