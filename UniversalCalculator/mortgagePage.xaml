@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="Calculator.mortgagePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+	<Grid>
+		<StackPanel>
+			<TextBlock Name="MortgageCalculatorTextblock" Text="Mortgage Calculator" HorizontalAlignment="Center" FontSize="80" FontWeight="Bold">
+			</TextBlock>
+		</StackPanel>
+		<StackPanel>
+			<TextBlock Name="PrincipalBorrowedTextBlock" Text="Principal Borrowed: $" HorizontalAlignment="Center" FontSize="50" Margin="0,140,450,40"></TextBlock>
+
+
+
+			<TextBlock Name="YearsTextBlock" Text="Years:" HorizontalAlignment="Center"  FontSize="50" Margin="0,20,190,40"></TextBlock>
+
+
+			<TextBlock Name="MonthsTextBlock" Text="Months:" HorizontalAlignment="Center"  FontSize="50" Margin="0,0,190,0"></TextBlock>
+
+
+			<TextBlock Name="AnnualInterestRateTextBlock" Text="Annual Interest Rate:" HorizontalAlignment="Center"  FontSize="50" Margin="0,60,450,40"></TextBlock>
+
+
+			<TextBlock Name="MonthlyInterestRateTextBlock" Text="Monthly Interest Rate:" HorizontalAlignment="Center"  FontSize="50" Margin="0,10,450,40"></TextBlock>
+
+
+			<TextBlock Name="MonthlyRepaymentTextBlock" Text="Monthly Repayment:" HorizontalAlignment="Center"  FontSize="50" Margin="0,10,450,40"></TextBlock>
+
+			
+		</StackPanel>
+
+		<StackPanel >
+			<TextBox Name="PrincipalBorrowedTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,140,-750,40" Width="650"></TextBox>
+			<TextBox Name="YearsTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,0,-750,40" Width="650"></TextBox>
+			<TextBox Name="MonthsTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,0,-750,40" Width="650"></TextBox>
+			<TextBox Name="AnualInterestRateTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,0,-750,40" Width="650"></TextBox>
+			<TextBox Name="MonthlyInterestRateTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,0,-750,40" Width="650"></TextBox>
+			<TextBox Name="MonthlyRepaymentTextBox" HorizontalAlignment="Center" FontSize="50" Margin="0,0,-750,40" Width="650"></TextBox>
+			<Button Name="CalculateButton" Content="Calculate" HorizontalAlignment="Right" Margin="0,0,250,0" FontSize="50" Click="CalculateButton_Click"></Button>
+			<Button Name="ExitButton" Content="Exit" HorizontalAlignment="Right" Margin="0,-80,80,0" FontSize="50" Width="150" Click="ExitButton_Click"></Button>
+
+
+	</StackPanel>
+
+	
+
+    </Grid>
+</Page>
