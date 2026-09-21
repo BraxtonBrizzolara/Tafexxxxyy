@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Calculator.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid Margin="50">
+		<Image x:Name="abacus" Width="500" HorizontalAlignment="Right" VerticalAlignment="top" Source="/Assets/abacus.jpg"/>
+		<StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
+			
+			
+			<TextBlock x:Name="helloTextBlock" Text="Universal Calculator" FontSize="45" HorizontalAlignment="Center"/>
+			<Button x:Name="maths_button" HorizontalAlignment="Center" Click="maths_Button_Click">
+			Maths calculator
+		</Button>
+			<Button x:Name="Morgage_button" HorizontalAlignment="Center" Click="Morgage_button_Click">
+			Morgage calculator
+		</Button>
+			<Button x:Name="currency_button" HorizontalAlignment="Center" Click="currency_button_Click">
+			currency calculator
+		</Button>
+			<Button x:Name="exit_button" HorizontalAlignment="Center" Click="exit_button_Click">
+				exit
+			</Button>
+		</StackPanel>
+	</Grid>
+</Page>
