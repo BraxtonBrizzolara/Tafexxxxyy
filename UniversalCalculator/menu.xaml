@@ -15,14 +15,21 @@
 			
 			<TextBlock x:Name="helloTextBlock" Text="Universal Calculator" FontSize="45" HorizontalAlignment="Center"/>
 			<Button x:Name="maths_button" HorizontalAlignment="Center" Click="maths_Button_Click">
+				// Navigate to Simple Calculator
 			Maths calculator
+				
+				// Navigate to Mortgage Calculator
 		</Button>
 			<Button x:Name="Morgage_button" HorizontalAlignment="Center" Click="Morgage_button_Click">
 			Morgage calculator
 		</Button>
+
+
 			<Button x:Name="currency_button" HorizontalAlignment="Center" Click="currency_button_Click">
 			currency calculator
-		</Button>
+				//// Navigate to Currency Converter
+
+			</Button>
 			<Button x:Name="exit_button" HorizontalAlignment="Center" Click="exit_button_Click">
 				exit
 			</Button>
