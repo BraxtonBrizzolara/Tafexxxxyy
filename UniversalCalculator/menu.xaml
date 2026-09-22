@@ -23,6 +23,9 @@
 			<Button x:Name="currency_button" HorizontalAlignment="Center" Click="currency_button_Click">
 			currency calculator
 		</Button>
+			<Button x:Name="Trip_Calculator" HorizontalAlignment="Center" Click="Trip_Calculator_Click">
+				Trip Calculator
+			</Button>
 			<Button x:Name="exit_button" HorizontalAlignment="Center" Click="exit_button_Click">
 				exit
 			</Button>

@@ -1,3 +1,4 @@
+using System;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.UI.Core;
@@ -38,6 +39,18 @@ namespace Calculator
 		private void exit_button_Click(object sender, RoutedEventArgs e)
 		{
 
+		}
+
+		private async void Trip_Calculator_Click(object sender, RoutedEventArgs e)
+		{
+			ContentDialog dialog = new ContentDialog
+			{
+				XamlRoot = this.Content.XamlRoot,
+				Title = "Exception Error",
+				Content = "Trip calculator C# code will be developed later.",
+				CloseButtonText = "OK"
+			};
+			_ = await dialog.ShowAsync();
 		}
 	}
 }
